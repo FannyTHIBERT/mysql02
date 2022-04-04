@@ -1,0 +1,1 @@
+SELECT SUBSTRING(summary,1,92) AS "Summaries" FROM movies WHERE (RIGHT(id,1) %2=1) AND (id BETWEEN 42 AND 84);
